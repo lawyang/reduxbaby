@@ -1,0 +1,192 @@
+.grid-container {
+    margin: 0px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "video video logo logo" "video video logo logo" "featuredProductsChevron featuredProductsChevron featuredProductsChevron featuredProductsChevron" "productCards productCards productCards productCards" "productCards productCards productCards productCards" "processChevron processChevron processChevron processChevron" "processCards processCards processCards processCards" "footerText footerText footerText footerText";
+}
+
+.video { 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "videoA VideoB VideoC" "videoA VideoB VideoC";
+    grid-area: video;
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+.logo { 
+    grid-area: logo; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+.featuredProductsChevron { 
+    grid-area: featuredProductsChevron; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+.productCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "goKeypad faceplates decalSheets" "goKeypad faceplates decalSheets";
+    grid-area: productCards;
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+
+}
+
+.goKeypad { 
+    grid-area: goKeypad; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.faceplates { 
+    grid-area: faceplates; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.decalSheets { 
+    grid-area: decalSheets; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.processChevron { 
+    grid-area: processChevron; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.processCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "download design upload sendTo" "download design upload sendTo";
+    grid-area: processCards;
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.download { 
+    grid-area: download;
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.design { 
+    grid-area: design; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.upload { 
+    grid-area: upload; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.sendTo { 
+    grid-area: sendTo; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.footerText {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "nameLocation nameLocation nameLocation" "footerIcons footerIcons footerIcons";
+    grid-area: footerText;
+}
+
+.nameLocation { 
+    grid-area: nameLocation; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+.footerIcons { 
+    grid-area: footerIcons; 
+    border: black solid 1px;
+    margin: 15px 0px 15px 0px;
+}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px){
+  
+  /* //CSS   */
+
+
+    
+}
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* //CSS */
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* //CSS */
+    
+  }
+

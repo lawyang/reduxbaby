@@ -19,7 +19,7 @@ class ChildTwo extends Component {
     render() {
         // debugger;
         console.log(this.props.childTwoActive)
-        debugger;
+        // debugger;
         console.log('CART ID', this.props.cartID)
         return(
             <div className='childTwo'>
