@@ -1,8 +1,8 @@
 module.exports = {
     apps : [
         {
-          name: "<your application name>",
-          script: "./<path to>/server.js",
+          name: "test-app",
+          script: "/server.js",
           watch: true,
           env: {
               "PORT": 8080,//you can choose
